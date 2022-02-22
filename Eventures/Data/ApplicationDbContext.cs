@@ -1,4 +1,5 @@
-﻿using Eventures.Domain;
+﻿using Eventures.App.Domain;
+using Eventures.Domain;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -15,5 +16,6 @@ namespace Eventures.Data
             this.Database.EnsureCreated();
         }
         public DbSet<Event> Events { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }

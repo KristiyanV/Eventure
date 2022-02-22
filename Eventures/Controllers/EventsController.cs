@@ -25,6 +25,7 @@ namespace Eventures.App.Controllers
             List<EventAllViewModel> events = context.Events
             .Select(eventFromDb => new EventAllViewModel
             {
+              Id = eventFromDb.Id,
               Name = eventFromDb.Name,
               Place = eventFromDb.Place,
               Start = eventFromDb.Start.ToString("dd-MMM-yyyy HH:mm", CultureInfo.InvariantCulture),

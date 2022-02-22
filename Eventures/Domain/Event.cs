@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Eventures.App.Domain;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Eventures.Domain
@@ -25,5 +28,7 @@ namespace Eventures.Domain
         public EventuresUser Owner { get; set; }
 
         public string OwnerId { get; set; }
+
+        public IEnumerable<Order> Orders { get; set; } = new List<Order>();
     }
 }
