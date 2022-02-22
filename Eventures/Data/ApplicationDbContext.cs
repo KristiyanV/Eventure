@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Eventures.App.Models;
 
 namespace Eventures.Data
 {
@@ -17,5 +18,6 @@ namespace Eventures.Data
         }
         public DbSet<Event> Events { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Eventures.App.Models.OrderListingViewModel> OrderListingViewModel { get; set; }
     }
 }

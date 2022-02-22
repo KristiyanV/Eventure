@@ -13,7 +13,7 @@ namespace Eventures.App.Domain
 
         public string Id { get; set; }
 
-        public DateTime Orderedon { get; set; }
+        public DateTime OrderedOn { get; set; }
 
         public string EventId { get; set; }
 

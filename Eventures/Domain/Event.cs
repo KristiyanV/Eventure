@@ -9,7 +9,7 @@ namespace Eventures.Domain
     public class Event
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         public string Name { get; set; }
 
