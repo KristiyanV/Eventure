@@ -1781,3 +1781,6 @@ C:\Users\PC123\Desktop\Нова папка (10)\Eventure\Eventures\obj\Debug\net
 C:\Users\PC123\Desktop\Нова папка (10)\Eventure\Eventures\obj\Debug\net5.0\Eventures.App.genruntimeconfig.cache
 C:\Users\PC123\Desktop\Нова папка (10)\Eventure\Eventures\obj\Debug\net5.0\Razor\Views\Events\_OrderPartialView.cshtml.g.cs
 C:\Users\PC123\Desktop\Нова папка (10)\Eventure\Eventures\obj\Debug\net5.0\Razor\Views\Events\My.cshtml.g.cs
+C:\Users\Student\Documents\New folder (2)\Eventure\Eventures\obj\Debug\net5.0\Razor\Views\Events\My.cshtml.g.cs
+C:\Users\Student\Documents\New folder (2)\Eventure\Eventures\obj\Debug\net5.0\Razor\Views\Orders\Index.cshtml.g.cs
+C:\Users\Student\Documents\New folder (2)\Eventure\Eventures\obj\Debug\net5.0\Razor\Views\EventureUsers\Index.cshtml.g.cs

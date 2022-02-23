@@ -37,21 +37,22 @@
                                         <a class="dropdown-item" href="/Events/All">All Events</a>
                                         @if (User.IsInRole("Administrator"))
                                         {
-                                        <a class="dropdown-item" href="/Events/Create">Create Event</a>}
-                                        
+                                            <a class="dropdown-item" href="/Events/Create">Create Event</a>}
+
                                     </div>
                                 </div>
                             </li>
 
                         }
                         @if (User.IsInRole("Administrator"))
-                         {
-                          <li class="nav-item">
-                               <a class="nav-link text-dark" asp-controller="Orders" asp-action="Index">Orders</a>
-                          </li>
-                          <li class="nav-item">
-                              <a class="nav-link text-dark" asp-controller="Users" asp-action="Index">Users</a>
-                          </li>}
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Orders" asp-action="Index">Orders</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="EventureUsers" asp-action="Index">Users</a>
+                            </li>
+}
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
